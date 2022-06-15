@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    background: #F5F9F1;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.textFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sectionServices{
+    justify-content: center;
+}
+
+footer{
+    background-color: #001C8B;
+    padding: 10px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #001C8B;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #F6B28E;
+    padding: 20px;
+}
+
+.menu, footer{
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.menu ul {
+    /* display: flex; */
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+header {
+    height: 500px;
+    background-image: url("../images/clouds-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center  ;
+    display: flex;
+}
+
+.sectionServices div {
+    justify-content: space-around;
+}
+
+.sectionServices div img {
+    padding: 10px;
+}
+
+.sectionDifference article {
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.sectionDifference article div {
+    padding: 20px;
+}
+
+.randomText {
+    max-width: 50%;
+    align-self: center;
+}
+
+.sectionPortfolio{
+    padding: 20px;
+}
+.sectionPortfolio article {
+    justify-content: space-around;
+}
+
+.port1, .port2, .port3 {
+    padding: 10px;
+}
+
+.port1 {
+    align-items: flex-start;
+}
+
+.port2 {
+    align-items: flex-end;
+}
+
+.port3 {
+    justify-content: space-around;
+}
+
+.port3 input {
+    margin: 10px;
+}
+
+.sectionContact {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sectionContact form {
+    align-self: center;
+}
+
+form input, input {
+    border: 1px solid #001C8B;
+    background-color: #F5F9F1;
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+}
+
+form {
+    padding: 10px;
+}
+
+form textarea {
+    border: 1px solid #001C8B;
+    background-color: #F5F9F1;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.button {
+    height: 50px;
+}
+
+footer div p {
+    color: #F5F9F1;
+}
+
+.aboutSection {
+    padding: 20px;
+}
+
+/* Tablet */
+
+@media (min-width: 512px) and (max-width: 1023px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+        padding: 10px;
+    }
+
+    header  {
+        height: 300px;
+    }
+
+    .testImage {
+        max-width: 300px;
+    }
+
+    .randomText {
+        max-width: 100%;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 511px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    header {
+        height: 200px;
+    }
+
+    .testImage {
+        max-width: 250px;
+    }
+
+    .randomText {
+        max-width: 100%;
+    }
+}
+
